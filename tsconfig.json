@@ -45,10 +45,12 @@
     /** 报告函数中未使用参数的错误 */
     "noUnusedParameters": true,
     /** 确保switch语句中的任何非空情况都包含 */
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    /** 不允许隐式 any 类型 */
+    "noImplicitAny": false
   },
   /** 需要检测的文件 */
-  "include": ["src"],
+  "include": ["src", "tinymce"],
   /** 为文件进行不同配置 */
   "references": [
     {

@@ -5,12 +5,30 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "tsc && vite build --base=/jingsheng-invite-tender/",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "11.14.0",
+    "@emotion/styled": "11.14.0",
+    "@fortawesome/fontawesome-svg-core": "6.7.2",
+    "@fortawesome/free-solid-svg-icons": "6.7.2",
+    "@fortawesome/react-fontawesome": "0.2.2",
+    "@mui/icons-material": "6.4.8",
+    "@mui/material": "6.4.8",
+    "@mui/x-date-pickers": "7.27.3",
+    "@types/crypto-js": "4.2.2",
+    "@types/qs": "6.9.18",
+    "axios": "1.8.2",
+    "crypto-js": "4.2.0",
+    "date-fns": "4.1.0",
+    "dayjs": "1.11.13",
+    "qs": "6.14.0",
     "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "react-dom": "18.3.1",
+    "react-router-dom": "6.30.0",
+    "swr": "2.3.3",
+    "zustand": "5.0.3"
   },
   "devDependencies": {
     "@nabla/vite-plugin-eslint": "2.0.4",

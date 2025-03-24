@@ -7,7 +7,14 @@ import path from 'path';
  * @see https://vitejs.dev/config/
  */
 export default defineConfig({
+  define: {
+    'process.env': {},
+  },
   plugins: [react(), eslintPlugin()],
+  server: {
+    host: true,
+    port: 3000,
+  },
   resolve: {
     alias: {
       '@': path.resolve('./src'),
